@@ -29,3 +29,65 @@
     margin: 10px 0;
     font-size: 1.2em;
 }
+
+
+/* Présentation */
+.presentation {
+    text-align: center;
+    padding: 20px;
+}
+
+.competences ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.competences li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Grille des meilleures réalisations */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-item {
+    padding: 15px;
+    text-align: center;
+}
+
+.project-thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Centrer la grille des meilleures réalisations */
+.best-projects {
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.project-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.project-thumbnail img {
+    max-width: 100%;
+    height: auto;
+}

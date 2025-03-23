@@ -1,0 +1,45 @@
+/* Styles sombres avec sélecteurs plus spécifiques */
+body, html, #page {
+    background-color: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+/* Ciblage plus spécifique pour Hello Elementor */
+.elementor-widget-container,
+.elementor-section,
+.elementor-column,
+.elementor-element {
+    background-color: #121212 !important;
+}
+
+/* Autres éléments courants qui pourraient avoir un fond blanc */
+.site-header,
+.site-content,
+.site-footer,
+.entry-content,
+.hentry,
+.widget-area,
+main,
+div.elementor {
+    background-color: #1e1e1e !important;
+    color: #f5f5f5 !important;
+}
+
+/* Éléments de navigation */
+.main-navigation a,
+.menu-item a {
+    color: #e0e0e0 !important;
+}
+
+/* Pour les textes */
+h1, h2, h3, h4, h5, h6, p, span, li, a {
+    color: #f5f5f5 !important;
+}
+
+/* Liens */
+a {
+    color: #4db2ec !important;
+}
+a:hover {
+    color: #2d9bd8 !important;
+}
