@@ -52,6 +52,7 @@ Le lien du repo github est : https://github.com/barnabehvrd/TP-bedrock-iut
 - L'installation d'ACF a été un peu longue (car je n'avais pas immédiatement compris qu'il fallait ajouter le repository à composer.json)
 - La création du CPT a été longue parce que mon function.php était mal configuré (donc grosse perte de temps, je ne m'en suis pas rendu compte tout de suite)
 - Le CSS ne marchait pas dans le fichier de base, obligé de créer un second fichier CSS
+- wp-cli sur Windows, c'est une horreur (heureusement que j'avais WSL)
 
 # Installation du projet
 - Cloner le projet
