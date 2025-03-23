@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2099ee438a5f0ac37dc987dc4968ac6c",
+    "content-hash": "ca5d63e0f0a5922d25e2a709001da18a",
     "packages": [
         {
             "name": "composer/installers",
@@ -1091,6 +1091,42 @@
                 }
             ],
             "time": "2024-07-20T21:52:34+00:00"
+        },
+        {
+            "name": "wpackagist-theme/hello-elementor",
+            "version": "3.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/hello-elementor/",
+                "reference": "3.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/hello-elementor.3.3.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/hello-elementor/"
+        },
+        {
+            "name": "wpackagist-theme/perfect-portfolio",
+            "version": "1.2.4",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/perfect-portfolio/",
+                "reference": "1.2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/perfect-portfolio.1.2.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/perfect-portfolio/"
         },
         {
             "name": "wpackagist-theme/twentytwentyfive",
