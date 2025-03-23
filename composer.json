@@ -47,7 +47,8 @@
     "wpackagist-theme/twentytwentyfive": "^1.0",
     "wpackagist-theme/perfect-portfolio": "^1.2",
     "wpackagist-theme/hello-elementor": "^3.3",
-    "wpengine/advanced-custom-fields": "^6.3"
+    "wpengine/advanced-custom-fields": "^6.3",
+    "wp-cli/wp-cli-bundle" : "*"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
