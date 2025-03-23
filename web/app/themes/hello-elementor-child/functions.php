@@ -15,29 +15,4 @@ function mon_theme_enfant_enqueue_styles()
 }
 add_action('wp_enqueue_scripts', 'mon_theme_enfant_enqueue_styles');
 
-add_action('init', 'portfolio_cpt');
-function portfolio_cpt()
-{
-    $labels = [
-        'name' => _x('Portfolio', 'Nom général', 'mon-theme-enfant'),
-        'singular_name' => _x('Portfolio', 'Nom singulier', 'mon-theme-enfant'),
-        'menu_name' => __('Portfolios', 'mon-theme-enfant'),
-        'name_admin_bar' => __('Portfolio', 'mon-theme-enfant'),
-    ];
-    $args = [
-        'labels' => $labels,
-        'public' => true,
-        'publicly_queryable' => true,
-        'show_ui' => true,
-        'show_in_menu' => true,
-        'query_var' => true,
-        'rewrite' => ['slug' => 'portfolio'],
-        'capability_type' => 'post',
-        'has_archive' => true,
-        'hierarchical' => false,
-        'menu_position' => null,
-        'supports' => ['title', 'editor', 'thumbnail', 'excerpt', 'custom-fields', 'comments'],
-        'taxonomies' => ['category', 'post_tag'],
-    ];
-    register_post_type('evenement', $args); // 'evenement' est le slug du CPT
-}
+require_once get_stylesheet_directory() . '/cpt-portfolio.php';
