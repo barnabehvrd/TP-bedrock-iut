@@ -49,10 +49,9 @@ function custom_post_type() {
 		'has_archive'           => true,
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
-		'capability_type'       => 'page',
 		'rewrite'               => array( 'slug' => 'portfolio' ),
 	);
-	register_post_type( 'post_type', $args);
+	register_post_type( 'portfolio', $args);
 
 }
 add_action( 'init', 'custom_post_type', 0 );
