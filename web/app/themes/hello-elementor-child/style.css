@@ -7,3 +7,25 @@
  Text Domain:  hello-elementor-child
 */
 
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.portfolio-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.portfolio-thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-title {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
